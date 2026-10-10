@@ -1,0 +1,29 @@
+{
+  "benchmark_id": "silicium_hash_arena",
+  "timestamp_utc": "2026-10-09T22:55:10Z",
+  "hardware_profile": "aws_c6a_12xlarge",
+  "hardware_host": "AWS EC2 c6a.12xlarge (AMD EPYC 7R13 Milan znver3)",
+  "measured_metrics": {
+    "small_key_1b_ns": 0.45,
+    "small_key_4b_ns": 0.51,
+    "small_key_8b_ns": 0.52,
+    "small_key_16b_ns": 0.43,
+    "small_key_16b_specialized_ns": 0.41,
+    "small_key_16b_batch_4x_ns": 0.42,
+    "small_key_16b_batch_4x_mops": 2384.7,
+    "small_key_32b_ns": 1.18,
+    "small_key_64b_ns": 1.19,
+    "bulk_1024b_gbps": 56.14,
+    "bulk_65536b_gbps": 105.12,
+    "bulk_1048576b_gbps": 70.33,
+    "q01_small_keys_l1_hits_mops": 356.7,
+    "q02_heavy_misses_dram_ns": 0.95,
+    "q03_high_load_85pct_mops": 321.7
+  },
+  "status": "COMPLETED_IN_SITU_PURE_RUST",
+  "speedup_vs_baseline": {
+    "small_key_16b_ratio": 3.98,
+    "small_key_16b_apex_ratio": 4.03,
+    "bulk_64kb_ratio": 2.46
+  }
+}

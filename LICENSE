@@ -1,0 +1,33 @@
+# Silicium Community & Evaluation Software License 1.0 (SCSL-1.0)
+## Octa-Shield Intellectual Property & Anti-Circumvention Agreement
+
+SPDX-License-Identifier: LicenseRef-Silicium-Community-1.0
+
+Copyright (c) 2026 Silicium Architecture Research Team (`silicium369@gmail.com`).
+Protected under Patent Pending. All rights reserved.
+
+By downloading, installing, linking, executing, or otherwise using the Silicium Software, C-ABI Headers, or Pre-Compiled Binary Artifacts (collectively, the "Software"), You agree to be bound by all eight (8) cumulative legal and technical shields set forth below:
+
+### SHIELD 1 — NON-COMMERCIAL SINGLE-NODE EVALUATION GRANT & MANAGED SERVICE BAN
+Subject to strict compliance with all terms of this Agreement, Licensor grants You a revocable, non-exclusive, non-transferable, non-sublicensable license to execute the Community Edition of the Software solely for personal research, academic verification, and non-production evaluation on a Single Workstation or Single-Node Server (capped at `1` physical CPU socket with `<= 32` physical cores). Commercial production use, internal business operations at scale, SaaS hosting, API reselling, cloud marketplace deployment, or Managed Service offering is strictly prohibited without a valid commercial Enterprise License (`SCSL-1.0 Enterprise`).
+
+### SHIELD 2 — EXPRESS PATENT EXCLUSION (ZERO IMPLIED PATENT LICENSE)
+This License grants limited copyright and binary execution permissions only. **No patent license, whether express, implied, by estoppel, or under the doctrine of exhaustion, is granted by this Agreement** under any patent or patent application (including without limitation Canadian Patent Applications, international patent applications, and counterparts). Any implementation, clean-room re-implementation, or derivative work practicing the claimed methods requires a separate written Patent License from the Licensor.
+
+### SHIELD 3 — ANTI-REVERSE ENGINEERING, ANTI-DECOMPILATION & BINARY INTEGRITY LOCK
+With respect to any pre-compiled shared library (`.so`, `.dylib`, `.dll`) or binary executable included in the Software, You shall not, and shall not permit any third party to: (a) disassemble, decompile, decrypt, extract micro-architectural lookup tables, or reverse engineer the binary code; (b) bypass, disable, nop-out, patch, or tamper with any binary integrity check or concurrency limiter; or (c) use symbolic execution, dynamic binary instrumentation, or side-channel probing to reconstruct internal algorithms.
+
+### SHIELD 4 — ANTI-SCRAPING, ANTI-DISTILLATION & SYNTHETIC BENCHMARK HARVESTING BAN
+You may not use the Software, its latency profiles, its probe traces, or its associative table layouts to train, calibrate, fine-tune, or distill any competing hashing engine, compiler schedule, or associative runtime.
+
+### SHIELD 5 — DEFENSIVE PATENT TERMINATION & AUTOMATIC REVOCATION
+If You or any of Your Affiliates institute, threaten, or financially support any patent, copyright, or trade secret litigation (including a cross-claim, counterclaim, or administrative invalidity proceeding such as IPR/PGR) against the Licensor or any contributor alleging that the Software infringes any patent or intellectual property right, all rights and licenses granted to You under this Agreement shall terminate automatically and retroactively as of the date such proceeding was initiated.
+
+### SHIELD 6 — STRICT EXPORT CONTROL & SANCTIONS COMPLIANCE
+The Software and its underlying high-density cryptographic and SIMD acceleration technologies may be subject to export control laws and trade sanctions. You represent and warrant that You are not located in, under the control of, or a national or resident of any embargoed jurisdiction or prohibited end-user list, and You shall not export or re-export the Software in violation of applicable export laws.
+
+### SHIELD 7 — ABSOLUTE WARRANTY DISCLAIMER & LIABILITY CAP
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE.
+
+### SHIELD 8 — GOVERNING LAW, EXCLUSIVE JURISDICTION & SEVERABILITY
+This Agreement shall be governed by and construed in accordance with applicable laws of the Licensor's sovereign jurisdiction, excluding conflict-of-law principles and the UN Convention on Contracts for the International Sale of Goods (CISG). If any provision of this Agreement is held unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable to the maximum extent permitted by law.

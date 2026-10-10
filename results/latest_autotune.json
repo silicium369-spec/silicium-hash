@@ -1,0 +1,18 @@
+{
+  "benchmark_id": "silicium_hash_arena",
+  "timestamp_utc": "2026-09-28T21:57:58Z",
+  "status": "OPTIMAL_SEALED",
+  "epistemic_constraints_applied": 6,
+  "optimal_configuration": {
+    "stripe_len": 128,
+    "unroll": 4,
+    "prefetch_dist": 2,
+    "acc_count": 8,
+    "secret_size": 160,
+    "l1d_working_set_bytes": 512,
+    "measured_throughput_gbps": 64.77,
+    "sac_ratio": 0.501,
+    "status": "CHAMPION_PHYSICAL_LIMIT_REACHED"
+  },
+  "calibration_latency_ms": 5871.89
+}
